@@ -11,7 +11,7 @@ steps:
   - run
   - --filename=deployment.yaml
   - --image=gcr.io/$PROJECT_ID/gcpdevops
-  - --location=us-central-1
+  - --location=us-central1
   - --cluster=gcp-project-prod-cluster
   - --namespace=gcp-devops-prod
 logsBucket: 'gs://gcp_devops_bucket'
